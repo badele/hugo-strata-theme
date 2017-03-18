@@ -2076,19 +2076,6 @@
 				width: 100%;
 			}
 
-		.image.avatar {
-			border-radius: 100%;
-		}
-
-			.image.avatar:before {
-				display: none;
-			}
-
-			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
-			}
-
 /* List */
 
 	ol {
@@ -2448,15 +2435,24 @@
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.5em;
 			margin: 0 0 0.5em 0;
+			color: #000
 		}
 
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			color: #666
+
 		}
+
+		.work-item p strong {
+            font-weight: bold;
+            color: #333;
+		}
+
 
 /* Header */
 
@@ -2490,11 +2486,6 @@
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
-		}
-
-		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
 		}
 
 /* Footer */
@@ -3142,7 +3133,7 @@
 
 	#sidebar ul li a,
 	#sidebar ul li a a:visited {
-		color: #a2a2a2;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
